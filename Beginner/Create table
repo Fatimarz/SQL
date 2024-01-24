@@ -1,1 +1,13 @@
+/* Query to create table Student */
+create table Student(
+ID int,
+First_Name varchar(20),
+Last_Name varchar(20),
+Gender char,
+Contact_Number bigint)
 
+/* Query to create table Courses */
+create table Courses(
+Course_code int,
+Section_code varchar(5),
+Course_Name varchar(20) )
