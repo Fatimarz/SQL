@@ -1,1 +1,22 @@
+/* Select all records */
+select*
+from student
+
+/* select all records from specific column */
+select first_name
+from student
+
+/* count the number of records */
+select count(ID)
+from student
+
+/* select distinct records from column */
+select distinct first_name
+from student
+
+/* limit the number of records */
+select*
+from student 
+limit 3
+
 
