@@ -1,1 +1,5 @@
-
+/* update age of student */
+update student
+set age = 12
+where ID=1
+ 
