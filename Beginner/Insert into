@@ -1,1 +1,17 @@
+/* insert records into student table */
+insert into student value 
+(1, 'John', 'Dev', 'M', 1231),
+(2, 'Jarry', 'Den', 'M', 1232),
+(3, 'Marry', 'Kah', 'F', 1245),
+(4, 'Harry', 'David', 'M', 1231),
+(5, 'Taylor', 'Henry', 'F', 9831)
 
+/* insert records into courses table */
+insert into courses value 
+(12, 31, 'Maths'),
+(13, 32, 'English'),
+(14, 33, 'Science')
+
+/* insert records into specific column */
+insert into student (ID, First_Name, Gender) value
+(6, 'Nail', 'M')
