@@ -1,1 +1,26 @@
+Alter statement in sql is use to make several changes to table
+
+/* Renaming the table name */
+alter table courses
+rename to subjects
+
+/* Renaming the column Name */
+alter table student
+rename column contact_Number to Contact
+
+/* Add column to an existing table */
+alter table student
+add column address varchar(20)
+
+/* changing the data type of the column */
+alter table student
+modify column ID int
+
+/* drop a column from table*/
+alter table subjects
+drop column section_code
+
+/* adding primary key to table */
+alter table student
+add primary key (ID)
 
