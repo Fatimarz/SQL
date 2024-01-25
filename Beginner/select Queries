@@ -19,4 +19,26 @@ select*
 from student 
 limit 3
 
+/* select max age */
+select max(age)
+from students
+
+/* select min age */
+select min(age)
+from students
+
+/* select avg age */
+select avg(age)
+from students
+
+/* sort the result in ascending order */
+select age
+from students
+order by age 
+
+/* sort the result in descending order */
+select age
+from students
+order by age desc
+
 
