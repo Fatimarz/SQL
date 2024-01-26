@@ -1,1 +1,11 @@
+*/ where clause is use to filter records based on specified condition in 'select', 'update' and 'delete' statement.
 
+/* select statement with where clause */
+select*
+from students
+where age = 12
+
+/* AND operator in where clause */
+select *
+from students 
+where first_name = 'John' and last_name = 'Dev'
