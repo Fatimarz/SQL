@@ -35,6 +35,8 @@ select*
 from students
 where last_name is null
 
-/* select* 
+/* select */
 from students
 where last_name is not null*/
+
+
