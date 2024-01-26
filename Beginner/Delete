@@ -1,1 +1,13 @@
+/* Delete a specific record */
+delete from 
+customer
+where id = 1
 
+/* Delete the entire table */
+drop table orders
+
+/* truncate is use to delete all records but it keeps the structure of table*/
+truncate table errors
+
+/* Drop entire database */
+drop database me;
