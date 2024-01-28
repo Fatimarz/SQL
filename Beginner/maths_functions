@@ -1,1 +1,42 @@
+/* max */
+select max(age)
+from students
 
+/* min */
+select min(age)
+from students
+
+/* avg */
+select avg(age)
+from students
+
+/* sum */
+select joiningYear  + ExperienceInCurrentDomain as sum
+from data
+
+/* subtract */
+select joiningYear  - ExperienceInCurrentDomain as difference
+from data
+
+/* absolute value*/
+select abs(PaymentTier) , PaymentTier
+from data
+
+/* rounds to specific number of decimal places */
+select round(salary,1)
+from data
+where id = 2
+
+/* round up to next digit */
+select ceil(salary) 
+from data
+where id = 2
+
+/* Power */
+select power(PaymentTier, 3) as power
+from data
+
+/* returns remainder */
+select MOD(age, PaymentTier) as remainder
+from data
+ 
