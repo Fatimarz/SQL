@@ -1,1 +1,18 @@
+/* It is use to group similar rows and then apply aggregate functions to summarize data */
 
+/* Find the total sales of each product category */
+select product_name, sum(sales)
+from products
+group by (product_name)
+
+/* Find the total orders placed by each customer */
+select customer_id, count(order)
+from order_table
+group by (customer_id)
+order by count(order) desc
+
+/* Find the quantity available of each product */
+select product_id, count(quantity)
+from order_items
+group by(product_id)
+order by count(quantity) asc
