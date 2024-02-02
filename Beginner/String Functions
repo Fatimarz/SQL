@@ -1,1 +1,7 @@
+/* TRIM */
+select employeeID, Ltrim(employeeID)
+from employeeerrors
 
+/* Replace */
+select lastname, replace(lastname, 'Flenderson - Fired', 'Flenderson F') as fixedd
+from employeeerrors
