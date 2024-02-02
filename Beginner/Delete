@@ -11,3 +11,7 @@ truncate table errors
 
 /* Drop entire database */
 drop database me;
+
+/* Drop column query */
+alter table teacher 
+drop column name
