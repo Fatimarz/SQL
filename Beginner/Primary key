@@ -1,1 +1,15 @@
+/* Create Primary key */
+create table employee(
+ID int,
+name varchar(90),
+city varchar(90),
+age int,
+primary key(ID))
 
+/* Drop primary key */
+alter table employee
+drop primary key
+
+/* Adding primary key in existing table */
+alter table employee
+add primary key(ID)
