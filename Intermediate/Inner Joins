@@ -1,1 +1,15 @@
+/* It joins the table based on matching condition and gives the matching records from both table */
+
+/* Joining employee and department table on the basis on employee id */
+select employee.ID, employee.name, employee.city, employee.age, dept.department
+from employee
+inner join dept on employee.id = dept.eid
+order by employee.ID ASC
+
+/* Joining order items and orders table on the basis of order id */
+select order_items.order_id, order_items.product_id, order_items.quantity, orders.order_date, orders.status
+from order_items
+join orders on order_items.order_id = orders.order_id
+order by order_items.order_id asc
+
 
