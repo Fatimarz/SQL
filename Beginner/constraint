@@ -1,0 +1,3 @@
+#when we make two or more column primary key then have to write keyword constraint#
+alter table info
+add constraint pk primary key(id, name)
