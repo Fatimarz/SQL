@@ -9,7 +9,7 @@ The aim of this project is to clean the Employees layoff data. It involves ident
 MS SQL Server <br>
 Excel
 
-## Data Cleaning Steps
+# Data Cleaning Steps
 ### Importing Data
 Data is imported from csv file into MySQL Server.
 
