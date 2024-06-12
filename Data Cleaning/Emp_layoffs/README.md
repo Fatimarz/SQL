@@ -10,23 +10,23 @@ MS SQL Server <br>
 Excel
 
 # Data Cleaning Steps
-### Importing Data
+### *Importing Data*
 Data is imported from csv file into MySQL Server.
 
-### Initial Data Inspection
+### *Initial Data Inspection*
 Executed queries to understand the data structure and identify potential issues in the data. 
 
-### Removing Duplicates
+### *Removing Duplicates*
 Created Common Table Expressions (CTEs) to identify and remove duplicate records as the data lacks a unique value column.
 
-### Standardizing Data
+### *Standardizing Data*
 Standardized the country names, addressing inconsistencies (e.g., "United States" vs. "United States.").
 
-### Handling Missing Value
+### *Handling Missing Value*
 Identified and fill missing industry names by using corresponding company names.
 
-### Removing Records
+### *Removing Records*
 Removed records where both layoff and layoff_percentage are null.
 
-### Drop Column
+### *Drop Column*
 Dropped column created through CTEs to identify Dupicates
